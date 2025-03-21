@@ -28,4 +28,4 @@ Above 300 units: 4/- per unit/
 
 units = int(input("Please enter number of units used for the month: "))
 bill = calculateBill(units)
-print(f"Bill for the current month is {bill:.1f} (╯︵╰,)")
+print(f"Bill for the current month is {bill:.1f}")
