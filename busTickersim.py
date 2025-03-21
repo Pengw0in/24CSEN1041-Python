@@ -1,8 +1,6 @@
 def bus_ticket_booking():
     TOTAL_SEATS = 40
     TICKET_PRICE = 500
-    
-
     available_seats = TOTAL_SEATS
     
     print("Welcome to the Bus Ticket Booking System!")
@@ -13,12 +11,10 @@ def bus_ticket_booking():
     
         try:
             tickets_required = int(input("\nHow many tickets would you like to book? (Enter 0 to exit): "))
-            
 
             if tickets_required == 0:
                 print("Thank you for using the Bus Ticket Booking System!")
                 break
-                
 
             if tickets_required < 0:
                 print("Please enter a valid number of tickets.")
